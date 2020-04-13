@@ -22,3 +22,14 @@ Only affects elements that have a position value which is not static.
 Flexbox is made for 1D layouts (alignment) and Grid is made for 2D layouts.
 Flexbox takes basis in the content while Grid takes basis in the layout.
 Grid is mostly defined on the parent element. In flexbox, most of the layout happen on the children.
+
+## What are the different position values?
+| position | description |
+| -------- | ----------- |
+| static   | (Default value) Elements render in order, as they appear in the document flow                   |
+| absolute | Element is positioned relative to its first positioned (not static) ancestor element            |
+| fixed    | Element is positioned relative to the browser window                                            |
+| relative | Element is positioned relative to its normal position                                           |
+| sticky   | Element is positioned based on the user's scroll position (toggling between relative and fixed) |
+| initial  | Sets this property to its default value                                                         |
+| inherit  | Inherits this property from its parent element                                                  |
