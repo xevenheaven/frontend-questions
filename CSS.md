@@ -33,3 +33,18 @@ Grid is mostly defined on the parent element. In flexbox, most of the layout hap
 | sticky   | Element is positioned based on the user's scroll position (toggling between relative and fixed) |
 | initial  | Sets this property to its default value                                                         |
 | inherit  | Inherits this property from its parent element                                                  |
+
+## What are pseudo classes and what are they used for?
+Pseudo classes are similar to pseudo elements, but instead of styling a part of an element, they apply styles when an element is in a certain state. Another common use case is to style only certain occurrences of elements in a row.
+
+| selector       | description |
+| -------------- | ----------- |
+| :active        | Selects active element                     |
+| :disabled      | Selects disabled element                   |
+| :first-child   | Selects first child                        |
+| :focus         | Selects element that has focus             |
+| :hover         | Selects element on mouse over              |
+| :last-child    | Selects last child                         |
+| :not(selector) | Selects element that is not given selector |
+| :nth-child(n)  | Selects the nth child                      |
+| :required      | Selects elements with a required attribute |
